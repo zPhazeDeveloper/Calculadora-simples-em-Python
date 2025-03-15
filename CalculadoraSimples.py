@@ -1,30 +1,35 @@
 # Calculadora simples em Python by zPhazeDeveloper
-import time
-
-numero1 = int(input("Digite o primeiro numero: "))
-numero2 = int(input("Digite o segundo numero: "))
-print("Opções de operações: +, -, *, ** ")
-
 while True:
-    operacao = input("Digite uma das opções acima: ")
-    
-    # Condições
-    if operacao == "+":
-        resultado = numero1 + numero2
-        break  
-    elif operacao == "-":
-        resultado = numero1 - numero2
-        break 
-    elif operacao == "*":
-        resultado = numero1 * numero2
-        break  
-    elif operacao == "**":
-        resultado = numero1 ** numero2
-        break  
-    else:
-        print("Essa conta é impossível")
-print("Calculando resultado...")
-time.sleep(1)
+    num1 = input('🔢 Digite um numero: ')
+    num2 = input('🔢 Digite o segundo numero: ')
+    print('🧮 opções dos operadores: (+, -, *, /, **, //, %)')
+    operador = input(f'🤔 Qual operador você deseja usar para calcular {num1} com {num2}: ')
 
-print("Pronto!")
-print("O resultado é: ", resultado)
+    resultado = None
+
+    ver1 = isinstance(num1, str)
+    ver2 = isinstance(num2, str)
+
+    if ver1 == True:
+        num1 = int(num1)
+    if ver2 == True:
+        num2 = int(num2)
+
+    if operador == '+':
+        resultado = num1 + num2
+    elif operador == '-':
+        resultado = num1 - num2
+    elif operador == '*':
+        resultado = num1 * num2
+    elif operador == '/':
+        resultado = num1 / num2
+    elif operador == '**':
+        resultado = num1 ** num2
+    elif operador == '//':
+        resultado = num1 // num2
+    elif operador == '%':
+        resultado = num1 % num2
+    else:
+        print("Nenhuma das opções abaixo foi digitada, tente denovo!")
+
+    print(f'🎉 O resultado da operação de {num1} {operador} {num2}: {resultado} ✨')
