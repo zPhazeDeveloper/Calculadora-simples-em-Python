@@ -4,10 +4,10 @@
 - **Correção de Tipos**: Melhor tratamento dos dados de entrada para garantir que sejam convertidos corretamente para inteiros.
 - **Maior Flexibilidade**: O código foi modificado para permitir maior personalização e a inclusão de mais operações, caso desejado.
 ### ⚒️ **Versão 2.1** - 15/03/2025 ás 11:48
-- **Retirada de "isinstance()" para verificar a condição**
-- **Adicionado emoji de erro**
-- **Adicionado a opção de retornar resultado inteiro ou decimal**
-- iniciada do input com numero decimal
+- **Retirada de "isinstance()" para verificar a condição.**
+- **Adicionado emoji de erro.**
+- **Adicionado a opção de retornar resultado inteiro ou decimal.**
+- **iniciada do input com numero decimal.**
 
 ##
 📜 **Créditos e Direitos Autorais**
