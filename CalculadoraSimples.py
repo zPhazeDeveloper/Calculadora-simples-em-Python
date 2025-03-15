@@ -22,9 +22,12 @@ while True:
     elif operador == '%':
         resultado = num1 % num2
     else:
-        print("Nenhuma das opções abaixo foi digitada, tente denovo!")
+        print("❌ Nenhuma das opções abaixo foi digitada, tente denovo!")
     escolha = input('Escolha: Digite "1" para mostrar o resultado inteiro, Digite "2" para mostrar o resultado com casa decimais')
     if escolha == "1":
         print(f"print(f'🎉 O resultado da operação de {num1} {operador} {num2}: {int(resultado)} ✨')")
     elif escolha == "2":
         print(f"print(f'🎉 O resultado da operação de {num1} {operador} {num2}: {resultado} ✨')")
+    else:
+        print(f'❌ Opção de escolha invalida, sessão encerrada!')
+        
