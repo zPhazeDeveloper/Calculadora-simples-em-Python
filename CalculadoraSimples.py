@@ -1,8 +1,10 @@
+import math
+
 # Calculadora simples em Python by zPhazeDeveloper
 while True:
     num1 = input('🔢 Digite um numero: ')
     num2 = input('🔢 Digite o segundo numero: ')
-    print('🧮 opções dos operadores: (+, -, *, /, **, //, %)')
+    print('🧮 opções dos operadores: (+, -, *, /, **, //, %, log)')
     operador = input(f'🤔 Qual operador você deseja usar para calcular {num1} com {num2}: ')
 
     resultado = None
@@ -29,6 +31,8 @@ while True:
         resultado = num1 // num2
     elif operador == '%':
         resultado = num1 % num2
+    elif operador == 'log':
+         resultado = math.log(num1,num2)
     else:
         print("Nenhuma das opções abaixo foi digitada, tente denovo!")
 
