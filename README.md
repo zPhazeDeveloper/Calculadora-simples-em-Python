@@ -3,12 +3,18 @@
 ---
 
 ## 🔄 **Change Log** (Registro de Alterações)
-
+Aqui só mostra o ultimo registro da ultima atualização, para ver todos os registro clique aqui: [Registro de atualizações da calculadora](https://github.com/zPhazeDeveloper/Calculadora-simples-em-Python/blob/main/updateslogs.md)
 ### 🚀 **Versão 2.0** - 15/03/2025
 - **Nova Interface**: Agora, o programa permite a escolha de múltiplos operadores matemáticos diretamente no terminal com uma interface mais interativa e amigável.
 - **Novas Operações**: Adicionadas as operações de **divisão** (`/`), **divisão inteira** (`//`), e **módulo** (`%`).
 - **Correção de Tipos**: Melhor tratamento dos dados de entrada para garantir que sejam convertidos corretamente para inteiros.
 - **Maior Flexibilidade**: O código foi modificado para permitir maior personalização e a inclusão de mais operações, caso desejado.
+---
+⚒️ **Versão 2.1** - 15/03/2025 ás 11:48
+- **Retirada de "isinstance()" para verificar a condição**
+- **Adicionado emoji de erro**
+- **Adicionado a opção de retornar resultado inteiro ou decimal**
+- iniciada do input com numero decimal
 
 ---
 
